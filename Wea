@@ -1,0 +1,1 @@
+b!cc edit _autoresponse_0 {if;{userisbot;{userid}};{if;{userid;{messagetext}};==;159492166542950401;{setnick;{set;@pingCount;{math;+;0{get;@pingCount};1}}{get;@pingCount};159492166542950401}}}
